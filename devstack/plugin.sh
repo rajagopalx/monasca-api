@@ -200,8 +200,6 @@ function extra_monasca {
 
         install_node_nvm
 
-        install_monasca_grafana
-
     fi
     if is_service_enabled monasca-smoke-test; then
         install_monasca_smoke_test
